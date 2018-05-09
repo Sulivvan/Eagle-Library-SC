@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="POGO_PIN">
+<smd name="PIN1" x="0" y="0" dx="1.8" dy="1.8" layer="1" roundness="100"/>
+</package>
+<package name="CIRCULAR_PAD">
+<smd name="P$1" x="0" y="0" dx="3.2" dy="3.2" layer="1" roundness="100"/>
+<text x="-1.27" y="-2.54" size="0.6096" layer="25">E$1</text>
+</package>
+<package name="RECT_PAD">
+<smd name="P$1" x="0" y="0" dx="4" dy="2" layer="1" rot="R90"/>
+</package>
+<package name="AA3021SGS">
+<smd name="CATODO(-)" x="1.4" y="0" dx="1.4" dy="1.5" layer="1"/>
+<smd name="ANODO(+)" x="-1.4" y="0" dx="1.4" dy="1.5" layer="1"/>
+<wire x1="-2.45" y1="1.05" x2="-2.45" y2="-1.05" width="0.1524" layer="21"/>
+<wire x1="-2.45" y1="-1.05" x2="2.45" y2="-1.05" width="0.1524" layer="21"/>
+<wire x1="2.45" y1="-1.05" x2="2.45" y2="1.05" width="0.1524" layer="21"/>
+<wire x1="-2.45" y1="1.05" x2="2.45" y2="1.05" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="0.7" x2="-0.7" y2="0" width="0.1524" layer="49"/>
+<wire x1="-0.7" y1="0" x2="-0.7" y2="-0.7" width="0.1524" layer="49"/>
+<wire x1="-0.7" y1="-0.7" x2="0.7" y2="0" width="0.1524" layer="49"/>
+<wire x1="0.7" y1="0" x2="-0.7" y2="0.7" width="0.1524" layer="49"/>
+<wire x1="0.7" y1="-0.7" x2="0.7" y2="0" width="0.1524" layer="49"/>
+<wire x1="0.7" y1="0" x2="0.7" y2="0.7" width="0.1524" layer="49"/>
+<wire x1="-0.7" y1="0" x2="-2.45" y2="0" width="0.1524" layer="49"/>
+<wire x1="0.7" y1="0" x2="2.45" y2="0" width="0.1524" layer="49"/>
+<wire x1="-2.45" y1="1.05" x2="-2.45" y2="-1.05" width="0.1524" layer="39"/>
+<wire x1="-2.45" y1="-1.05" x2="2.45" y2="-1.05" width="0.1524" layer="39"/>
+<wire x1="2.45" y1="-1.05" x2="2.45" y2="1.05" width="0.1524" layer="39"/>
+<wire x1="2.45" y1="1.05" x2="-2.45" y2="1.05" width="0.1524" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="21"/>
+<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="21"/>
+</package>
+<package name="HOLE_PAD">
+<circle x="0" y="0" radius="0.835" width="0.127" layer="21"/>
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
+<hole x="0" y="0" drill="0.8128"/>
+<wire x1="-0.3175" y1="0" x2="0.3175" y2="0" width="0.05" layer="23"/>
+<wire x1="0" y1="0.3175" x2="0" y2="-0.3175" width="0.05" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="POGO_PIN">
+<pin name="PIN1" x="5.08" y="0" length="middle" rot="R180"/>
+<circle x="0" y="0" radius="3.5921" width="0.1524" layer="98"/>
+<text x="2.54" y="-5.08" size="1.27" layer="95">E$1</text>
+<circle x="0" y="0" radius="2.54" width="0.127" layer="94"/>
+</symbol>
+<symbol name="CIRCULAR_PAD">
+<pin name="P$1" x="-5.08" y="0" length="middle"/>
+<circle x="0" y="0" radius="5.08" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="RECT_PAD">
+<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="5.08" layer="94"/>
+<rectangle x1="-2.54" y1="-5.08" x2="2.54" y2="-2.54" layer="94"/>
+<pin name="P$1" x="0" y="0" length="middle"/>
+</symbol>
+<symbol name="AA3021SGS">
+<wire x1="-3" y1="0" x2="-1" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1" y1="0" x2="-1" y2="-1" width="0.1524" layer="94"/>
+<wire x1="-1" y1="-1" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-1" y2="1" width="0.1524" layer="94"/>
+<wire x1="0" y1="1" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="2" x2="1" y2="3" width="0.1524" layer="94"/>
+<wire x1="1" y1="2" x2="2" y2="3" width="0.1524" layer="94"/>
+<wire x1="-1" y1="0" x2="-1" y2="1" width="0.15" layer="94"/>
+<pin name="ANODO" x="-3.08" y="0" length="point" direction="in" rot="R180"/>
+<pin name="CATODO" x="1.92" y="0" length="point" direction="out"/>
+</symbol>
+<symbol name="HOLEPAD">
+<circle x="0" y="0" radius="3.5921" width="0.1524" layer="94"/>
+<pin name="P$1" x="0" y="0" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="POGO_PIN">
+<description>&lt;head&gt;
+Individual Spring Loaded Contact from Harwin
+&lt;/head&gt;
+&lt;body&gt;
+Individual Spring Loaded Contact, Pogo Pin 
+&lt;br&gt;
+P/N: P70-5000045R
+&lt;br&gt;by Saul Cardenas
+&lt;/body&gt;
+&lt;br&gt;Datasheet:
+&lt;a href="https://cdn.harwin.com/pdfs/P70-500.pdf"&gt;Link&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="POGO_PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POGO_PIN">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="PIN1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CIRCULAR_PAD">
+<description>Surface Mount Contact Pad - S70-332002045R
+SMT Contact Pad
+Surface Mount flat contact pad, circular shape.
+Ø3.2mm, 0.2mm thick.
+
+
+Contact Pad from Harwin
+
+Datasheet: https://cdn.harwin.com/pdfs/S70-3XX.pdf</description>
+<gates>
+<gate name="G$1" symbol="CIRCULAR_PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CIRCULAR_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RECT_PAD">
+<description>&lt;head&gt;
+Surface Mount Contact Pad from Harwin
+&lt;/head&gt;
+&lt;body&gt;
+Surface Mount Contact Pad
+&lt;br&gt;
+P/N:S70-138181045R
+&lt;br&gt;by Saul Cardenas
+&lt;/body&gt;
+&lt;br&gt;Datasheet
+&lt;a href="https://cdn.harwin.com/pdfs/S70-1XX.pdf"&gt;Link&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RECT_PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RECT_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AA3021SGS">
+<description>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;
+Kingbright LED AA3021SGS 
+&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;b&gt;
+Knigbright LED
+&lt;br&gt;
+Part Number: AA3021SGS 
+&lt;br&gt;
+3.0x2.0mm SURFACE MOUNT LED LAMP
+&lt;br&gt;
+by Saul Cardenas
+&lt;/body&gt;
+&lt;br&gt;
+Datasheet:
+&lt;a href="https://www.mouser.com/datasheet/2/216/AA3021SGS-231062.pdf"&gt;Link&lt;/a&gt;
+
+&lt;/html&gt;</description>
+<gates>
+<gate name="G$1" symbol="AA3021SGS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AA3021SGS">
+<connects>
+<connect gate="G$1" pin="ANODO" pad="ANODO(+)"/>
+<connect gate="G$1" pin="CATODO" pad="CATODO(-)"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HOLE_PAD">
+<gates>
+<gate name="G$1" symbol="HOLEPAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HOLE_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
